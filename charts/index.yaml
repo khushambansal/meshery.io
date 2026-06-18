@@ -2,6 +2,996 @@ apiVersion: v1
 entries:
   meshery:
   - apiVersion: v2
+    appVersion: v1.0.43
+    created: "2026-06-13T03:54:20.898137062Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 4c4cb4227bd7511f646b0332c4429f9a2822d58a40b927365a36ad91b3429739
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.43.tgz
+    version: v1.0.43
+  - apiVersion: v2
+    appVersion: v1.0.42
+    created: "2026-06-11T03:47:06.614424341Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 711a7a80e25091aa40e80e7f080caca5eefe7e39e05e5344572ced127ebc1ff3
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.42.tgz
+    version: v1.0.42
+  - apiVersion: v2
+    appVersion: v1.0.41
+    created: "2026-06-10T17:58:03.518435782Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 7c123a32ca47e23c489b1f1370201f01e5fcab8762df9186d96c92370a095107
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.41.tgz
+    version: v1.0.41
+  - apiVersion: v2
+    appVersion: v1.0.40
+    created: "2026-06-09T03:17:06.559252462Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 3681b23817272eacef1ab1f79d2463a4c2c264058912dd4a19ab3e20180cdded
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.40.tgz
+    version: v1.0.40
+  - apiVersion: v2
+    appVersion: v1.0.39
+    created: "2026-06-08T21:13:42.890327659Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 65ba5e81fe1cc1772a9852c0dd19f842ce8bbf9b2ed01771a6df66101b226000
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.39.tgz
+    version: v1.0.39
+  - apiVersion: v2
+    appVersion: v1.0.38
+    created: "2026-06-05T20:26:59.155537704Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: a70049e7bd5410d8f6f531a027a27e0cb3be8fd7187af386662075344e326b9c
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.38.tgz
+    version: v1.0.38
+  - apiVersion: v2
+    appVersion: v1.0.36
+    created: "2026-06-05T16:14:02.285535861Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: f3cb832aa622ee460c662f78e583b555e797abbfd37c039be88e197b9fe01433
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.36.tgz
+    version: v1.0.36
+  - apiVersion: v2
+    appVersion: v1.0.35
+    created: "2026-06-01T17:09:33.78881679Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 286612bb7739174074b90f31495562fa5081b27b87ec2045219fb571241479e1
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.35.tgz
+    version: v1.0.35
+  - apiVersion: v2
+    appVersion: v1.0.34
+    created: "2026-05-29T18:18:41.78627424Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 350493530b7836456318088ecae24ba209cec3e2e729c49ccf815517a13bb712
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.34.tgz
+    version: v1.0.34
+  - apiVersion: v2
+    appVersion: v1.0.33
+    created: "2026-05-28T06:45:11.32978115Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 8c0e2204acd86fbfb18577ea5eea98dc0fb8e91fb96d637a8b15117ab3e90038
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.33.tgz
+    version: v1.0.33
+  - apiVersion: v2
+    appVersion: v1.0.32
+    created: "2026-05-27T13:18:45.442912836Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 41c7edbe315495e4f7be5b8e60a5a9ffc53abbe2fe1bb8df9e1824806ee2d776
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.32.tgz
+    version: v1.0.32
+  - apiVersion: v2
+    appVersion: v1.0.31
+    created: "2026-05-27T06:43:53.332926556Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 994e305244cca0baa82c2d35e42951538f17600df43f5c460e1c32e19209e865
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.31.tgz
+    version: v1.0.31
+  - apiVersion: v2
+    appVersion: v1.0.30
+    created: "2026-05-26T17:22:06.620814734Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: c4984dd9d2bd22459fbb960531b8e47b7f2d88fe4a5088ba40df9f4eb555e3f6
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.30.tgz
+    version: v1.0.30
+  - apiVersion: v2
+    appVersion: v1.0.29
+    created: "2026-05-25T20:30:44.462407192Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: c62bbb44bac6a830c06b6001f3817d1b1320e2ef023aee8b4283186b14d2e644
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.29.tgz
+    version: v1.0.29
+  - apiVersion: v2
+    appVersion: v1.0.28
+    created: "2026-05-22T23:30:52.232750806Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 0.8.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 93105567b571d2d9d5c44fb340cc63d121578ad33801ac3a2815400ad7cb6842
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-v1.0.28.tgz
+    version: v1.0.28
+  - apiVersion: v2
     appVersion: v1.0.26
     created: "2026-05-22T01:19:48.156511205Z"
     dependencies:
@@ -46258,6 +47248,456 @@ entries:
     version: v0.5.0-rc-5g
   meshery-operator:
   - apiVersion: v2
+    appVersion: v1.0.43
+    created: "2026-06-13T03:54:20.893717341Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 1a1c3f64dce2e66fe67e6901ecb4e009532ad5556bcdea6760f9f97a81a94f6a
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.43.tgz
+    version: v1.0.43
+  - apiVersion: v2
+    appVersion: v1.0.42
+    created: "2026-06-11T03:47:06.610264517Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: d9e836767714398435e90d78d6ba4191eb6b2263f220f8a80ba3eee6b0b0896c
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.42.tgz
+    version: v1.0.42
+  - apiVersion: v2
+    appVersion: v1.0.41
+    created: "2026-06-10T17:58:03.514358034Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 2a4315baec912f055da26b65c5808ffb2c496f31ea243ddfb227fb9df3c5118a
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.41.tgz
+    version: v1.0.41
+  - apiVersion: v2
+    appVersion: v1.0.40
+    created: "2026-06-09T03:17:06.554431177Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 47c3e7438fd1bbfea95a0ce33b05dede835ef1ea9ba26979f6f685280361874a
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.40.tgz
+    version: v1.0.40
+  - apiVersion: v2
+    appVersion: v1.0.39
+    created: "2026-06-08T21:13:42.886349046Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: c0adfa91233af975dfc4548a84a42b910437adb9add8d08bb8ee99d531335ba8
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.39.tgz
+    version: v1.0.39
+  - apiVersion: v2
+    appVersion: v1.0.38
+    created: "2026-06-05T20:26:59.151456014Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 02718e2b822a07c43cd3fd8d9581ade08fcb23017826185af64b60fb32f2f849
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.38.tgz
+    version: v1.0.38
+  - apiVersion: v2
+    appVersion: v1.0.36
+    created: "2026-06-05T16:14:02.280731704Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 97cabade11ff1100860b0b1124066cad729dcf834df7ed950b68b26613558cca
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.36.tgz
+    version: v1.0.36
+  - apiVersion: v2
+    appVersion: v1.0.35
+    created: "2026-06-01T17:09:33.784583794Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: f46a8d5e2b6e76ff099d5063a8ee680eb9017bc0b054ec30e6833e63e35b3765
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.35.tgz
+    version: v1.0.35
+  - apiVersion: v2
+    appVersion: v1.0.34
+    created: "2026-05-29T18:18:41.782101242Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 9e093cc345e180f6abcc5982c354b52e6d16a4c8a88bc3ab883997d8f4612b33
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.34.tgz
+    version: v1.0.34
+  - apiVersion: v2
+    appVersion: v1.0.33
+    created: "2026-05-28T06:45:11.324878688Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 8ec96d645a6743f4e09a4f91264b9b7beea76f5bd2649853c3862e4d3368d975
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.33.tgz
+    version: v1.0.33
+  - apiVersion: v2
+    appVersion: v1.0.32
+    created: "2026-05-27T13:18:45.4383427Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: ef6add1f15420efff52873ab94419a34d10f7ef7f84c116c67e5b14413092b2b
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.32.tgz
+    version: v1.0.32
+  - apiVersion: v2
+    appVersion: v1.0.31
+    created: "2026-05-27T06:43:53.327630816Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: d442c32c325a7bc69e7a857e32974a9e305b596dc99c3c23bbb10f14d90059eb
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.31.tgz
+    version: v1.0.31
+  - apiVersion: v2
+    appVersion: v1.0.30
+    created: "2026-05-26T17:22:06.615896435Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 7e0d6fb3c36d0ed05b209d43999b079e3b9f893db0f3fb9d31e7d9b72392bec3
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.30.tgz
+    version: v1.0.30
+  - apiVersion: v2
+    appVersion: v1.0.29
+    created: "2026-05-25T20:30:44.457036402Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: a9f5bf744eba7ddf940311f1fe6e28d6e4fddf85df1589121ce0c1e473d1865e
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.29.tgz
+    version: v1.0.29
+  - apiVersion: v2
+    appVersion: v1.0.28
+    created: "2026-05-22T23:30:52.229604491Z"
+    dependencies:
+    - condition: meshery-broker.enabled
+      name: meshery-broker
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-meshsync.enabled
+      name: meshery-meshsync
+      repository: ""
+      version: 0.5.0
+    description: Meshery Operator chart.
+    digest: 458d5bcf4393716970acef184005be467fc3097efd4b7659e74de4fd955b3dd6
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery-broker
+    - meshery-meshsync
+    maintainers:
+    - email: developers@meshery.io
+      name: Meshery Authors
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: maintainers@meshery.io
+      name: maintainers
+    name: meshery-operator
+    type: application
+    urls:
+    - https://meshery.github.io/meshery.io/charts/meshery-operator-v1.0.28.tgz
+    version: v1.0.28
+  - apiVersion: v2
     appVersion: v1.0.26
     created: "2026-05-22T01:19:48.152410587Z"
     dependencies:
@@ -68258,4 +69698,4 @@ entries:
     urls:
     - meshery-operator-v0.5.0-rc-5g.tgz
     version: v0.5.0-rc-5g
-generated: "2026-05-22T01:19:48.150553418Z"
+generated: "2026-06-13T03:54:20.892584663Z"
